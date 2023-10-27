@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+header {background-color: rgba(0, 0, 0, 0.925); }
+header h1 {display: flex; justify-content: center; color: white;}
+header #logo img {display: flex; justify-content: flex-start;width: 150px; border-radius: 10px;}
+body {
+  background-image: url(/img/bg1.jpg);
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  background: rgb(50, 57, 59);
+  background: linear-gradient(
+    90deg,
+    rgba(50, 57, 59, 1) 0%,
+    rgb(205, 216, 216) 36%,
+    rgba(164, 164, 164, 1) 53%,
+    rgb(218, 214, 214) 68%,
+    rgba(94, 94, 94, 1) 100%
+  );
+  font-family:Georgia,
+}
+
+#footerr section p {display: flex; justify-content: center; width: 50%; bottom: 0; position: ;}
